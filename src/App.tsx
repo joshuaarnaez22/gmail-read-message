@@ -55,7 +55,6 @@ function App() {
           setMessages(message);
           setAuth(true);
         } catch (error) {
-          setAuth(false);
           // window.location.href = "http://localhost:3000";
           window.alert(
             "NOTE! Need to implement refresh token logic need more research."

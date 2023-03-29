@@ -57,7 +57,7 @@ app.get("/callback", async (req, res) => {
     const {
       data: { messages },
     } = await gmail.users.messages.list({ userId: "me" });
-
+    console.log(messages);
     let fullMessages = [];
 
     //loop all the messageList to get additional data
