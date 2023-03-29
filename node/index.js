@@ -3,8 +3,9 @@ const cors = require("cors");
 
 const { google } = require("googleapis");
 
-const CLIENT_ID = process.env.CLIENT_ID;
-const CLIENT_SECRET = process.env.CLIENT_SECRET;
+const CLIENT_ID =
+  "965144383271-bgalndtd6cvp4mqjr47tl58h0o61i9b8.apps.googleusercontent.com";
+const CLIENT_SECRET = "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";
 const REDIRECT_URI = "http://localhost:3000/callback";
 
 const port = 3001;
